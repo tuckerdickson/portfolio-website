@@ -26,9 +26,11 @@ import iowa from "./company/iowa.png";
 import collins from "./company/collins.png";
 import greatamerica from "./company/greatamerica.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// Photos for the projects section
+import carrent from "./projects/carrent.png";
+import jobit from "./projects/jobit.png";
+import tripguide from "./projects/tripguide.png";
+import mri from "./projects/mri.png";
 
 export {
   logo,
@@ -58,4 +60,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  mri
 };

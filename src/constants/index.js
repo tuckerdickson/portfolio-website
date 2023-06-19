@@ -18,9 +18,9 @@ import {
     iowa,
     collins,
     greatamerica,
-    carrent,
     jobit,
     tripguide,
+    mri,
     threejs,
   } from "../assets";
   
@@ -197,7 +197,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "MRI Translation",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -214,7 +214,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: mri,
       source_code_link: "https://github.com/",
     },
     {
