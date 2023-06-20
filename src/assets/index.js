@@ -27,10 +27,9 @@ import collins from "./company/collins.png";
 import greatamerica from "./company/greatamerica.png";
 
 // Photos for the projects section
-import carrent from "./projects/carrent.png";
-import jobit from "./projects/jobit.png";
-import tripguide from "./projects/tripguide.png";
 import mri from "./projects/mri.png";
+import roomfinder from "./projects/roomfinder.png";
+import golf from "./projects/golf.png";
 
 export {
   logo,
@@ -57,8 +56,7 @@ export {
   iowa,
   collins,
   greatamerica,
-  carrent,
-  jobit,
-  tripguide,
-  mri
+  mri,
+  roomfinder,
+  golf
 };

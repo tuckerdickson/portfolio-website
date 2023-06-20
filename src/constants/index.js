@@ -18,9 +18,9 @@ import {
     iowa,
     collins,
     greatamerica,
-    jobit,
-    tripguide,
     mri,
+    roomfinder,
+    golf,
     threejs,
   } from "../assets";
   
@@ -199,64 +199,64 @@ import {
     {
       name: "MRI Translation",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A collection of artificial neural networks (CNN & GAN), capable of synthesizing MRI of a certain contrast, given MRI of a different contrast as input.",
       tags: [
         {
-          name: "react",
+          name: "pytorch",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "cnn",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "gan",
           color: "pink-text-gradient",
         },
       ],
       image: mri,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/tuckerdickson/mri-translation",
     },
     {
-      name: "Job IT",
+      name: "Room Finder",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An iOS application which enables users to search for, and navigate to, points of interest within the University of Iowa's Seamans Center for the Engineering Arts and Sciences.",
       tags: [
         {
-          name: "react",
+          name: "swift",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "ios",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "navigation",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: roomfinder,
+      source_code_link: "https://github.com/tuckerdickson/roomfinder",
     },
     {
-      name: "Trip Guide",
+      name: "Space Golf",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A virtual reality experience that allows users to perfect their golf swing and improve their accuracy, but in space!",
       tags: [
         {
-          name: "nextjs",
+          name: "unity",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "virtual-reality",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "oculus",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: golf,
       source_code_link: "https://github.com/",
     },
   ];
