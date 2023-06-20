@@ -37,7 +37,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Use this space to talk a little about yourself.
+        I'm a student and software developer with experience in areas including iOS, web, embedded, and AI model development. I'm particularly interested in the applications of deep learning, including computer vision and natural language processing.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

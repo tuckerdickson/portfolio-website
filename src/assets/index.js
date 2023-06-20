@@ -1,8 +1,5 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -20,6 +17,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+
+// Icons on the cards in the overview section
+import backend from "./overview/backend.png";
+import creator from "./overview/creator.png";
+import mobile from "./overview/mobile.png";
+import web from "./overview/web.png";
 
 // Photos for work experience section
 import iowa from "./company/iowa.png";
