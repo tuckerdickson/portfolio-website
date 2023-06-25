@@ -3,25 +3,20 @@ import {
     backend,
     creator,
     web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
+
     iowa,
     collins,
     greatamerica,
+
+    git,
+    python,
+    pytorch,
+    swift, 
+    cpp,
+
     mri,
     roomfinder,
-    golf,
-    threejs,
+    golf
   } from "../assets";
   
   export const navLinks = [
@@ -56,61 +51,6 @@ import {
       title: "Aspiring Entrepreneur",
       icon: creator,
     }
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
@@ -167,31 +107,28 @@ import {
       ],
     },
   ];
-  
-  const testimonials = [
+
+  const technologies = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Skills",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      name: "git",
+      icon: git,
     },
     {
-      testimonial: "Bachelor of Science in Engineering, Computer Science and Engineering, University of Iowa",
-      name: "Education",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "python",
+      icon: python
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Awards",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      name: "pytorch",
+      icon: pytorch
     },
+    {
+      name: "swift",
+      icon: swift
+    },
+    {
+      name: "c++",
+      icon: cpp
+    }
   ];
   
   const projects = [
@@ -257,6 +194,32 @@ import {
       ],
       image: golf,
       source_code_link: "https://github.com/",
+    },
+  ];
+  
+  const testimonials = [
+    {
+      testimonial:
+        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      name: "Skills",
+      designation: "CFO",
+      company: "Acme Co",
+      image: "https://randomuser.me/api/portraits/women/4.jpg",
+    },
+    {
+      testimonial: "Bachelor of Science in Engineering, Computer Science and Engineering, University of Iowa",
+      name: "Education",
+      designation: "COO",
+      company: "DEF Corp",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
+    },
+    {
+      testimonial:
+        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Awards",
+      designation: "CTO",
+      company: "456 Enterprises",
+      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
