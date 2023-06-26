@@ -61,10 +61,10 @@ import {
       iconBg: "#383E56",
       date: "Jan 2023 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Aid in the admimistration of ENGR:1300 Introduction to Engineering Computing.",
+        "Attend regular lectures and assist students with in-class programming assignments.",
+        "Hold office hours to answer questions about course content and assignments.",
+        "Evaluate and provide feedback on assignment submissions."
       ],
     },
     {
@@ -74,10 +74,9 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated with a team of engineers to create and test software used in cockpit displays.",
+        "Lead an effort to upgrade outdated lab computers.",
+        "Gained insight into the software testing life cycle in a large company."
       ],
     },
     {
@@ -87,10 +86,10 @@ import {
       iconBg: "#383E56",
       date: "Aug 2021 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Aid in the admimistration of ENGR:2730 Computers in Engineering.",
+        "Attend regular lectures and assist students with in-class programming activities.",
+        "Hold office hours to answer questions about course content and assignments.",
+        "Evaluate and provide feedback on assignment submissions."
       ],
     },
     {
@@ -100,10 +99,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Aug 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Improved efficiency of company applications, maintained data integrity, and solved code- level issues reported by internal employees.",
+        "Gained experience using SQL Server Management Studio to query data and improve database objects such as stored procedures and tables.",
+        "Formed strong communication skills by working through software bugs with users."
       ],
     },
   ];
@@ -193,34 +191,8 @@ import {
         },
       ],
       image: golf,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/tuckerdickson",
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Skills",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial: "Bachelor of Science in Engineering, Computer Science and Engineering, University of Iowa",
-      name: "Education",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Awards",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
